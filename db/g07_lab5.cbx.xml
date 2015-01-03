@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="g07_lab5">
+		<CBX_INST_ENTRY INSTANCE_NAME="|g07_complete_game2|g07_7_segment_led:inst17|LPM_ROM:crc_table|altrom:srom|altsyncram:rom_block" CBX_FILE_NAME="altsyncram_os01.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|g07_complete_game2|g07_7_segment_led:inst18|LPM_ROM:crc_table|altrom:srom|altsyncram:rom_block" CBX_FILE_NAME="altsyncram_os01.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|g07_complete_game2|g07_7_segment_led:inst20|LPM_ROM:crc_table|altrom:srom|altsyncram:rom_block" CBX_FILE_NAME="altsyncram_os01.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|g07_complete_game2|g07_7_segment_led:inst3|LPM_ROM:crc_table|altrom:srom|altsyncram:rom_block" CBX_FILE_NAME="altsyncram_os01.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

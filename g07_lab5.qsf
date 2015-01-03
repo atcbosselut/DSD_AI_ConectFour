@@ -1,0 +1,163 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2009 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II
+# Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Full Version
+# Date created = 22:08:44  November 26, 2011
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		g07_lab5_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2009 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II
+# Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Full Version
+# Date created = 22:02:04  November 26, 2011
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		g07_lab5_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone II"
+set_global_assignment -name DEVICE EP2C20F484C7
+set_global_assignment -name TOP_LEVEL_ENTITY g07_complete_game2
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION "9.0 SP2"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "22:02:04  NOVEMBER 26, 2011"
+set_global_assignment -name LAST_QUARTUS_VERSION "9.0 SP2"
+set_global_assignment -name USE_GENERATED_PHYSICAL_CONSTRAINTS OFF -section_id eda_blast_fpga
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name LL_ROOT_REGION ON -entity g07_lab5 -section_id "Root Region"
+set_global_assignment -name LL_MEMBER_STATE LOCKED -entity g07_lab5 -section_id "Root Region"
+set_global_assignment -name SIMULATION_MODE FUNCTIONAL
+set_global_assignment -name VHDL_FILE g07_game_end.vhd
+set_global_assignment -name MIF_FILE lcd_decoder_rom.mif
+set_global_assignment -name VHDL_FILE g07_7_segment_led.vhd
+set_global_assignment -name VHDL_FILE g07_number_to_ascii.vhd
+set_global_assignment -name BDF_FILE g07_sp_next_move.bdf
+set_global_assignment -name VHDL_FILE g07_sp_player.vhd
+set_global_assignment -name BDF_FILE g07_game_control2.bdf
+set_global_assignment -name VHDL_FILE g07_asp_registers.vhd
+set_global_assignment -name VHDL_FILE g07_asp_row_incr.vhd
+set_global_assignment -name VHDL_FILE g07_gra_arr.vhd
+set_global_assignment -name VHDL_FILE g07_asp_row_config.vhd
+set_global_assignment -name BDF_FILE g07_asp_next_move.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE g07_asp_registers.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE g07_asp_row_config.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE g07_asp_row_incr.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE g07_asp_next_move.vwf
+set_global_assignment -name VHDL_FILE g07_game_control.vhd
+set_global_assignment -name VECTOR_WAVEFORM_FILE g07_game_control.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE g07_game_control2.vwf
+set_global_assignment -name BDF_FILE g07_complete_game.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE g07_complete_game.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE g07_complete_game2.vwf
+set_global_assignment -name BDF_FILE g07_game_termination.bdf
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "3.3-V LVTTL"
+set_location_assignment PIN_F4 -to "letter1-1"
+set_location_assignment PIN_D4 -to "letter1-7"
+set_location_assignment PIN_F3 -to "letter1-6"
+set_location_assignment PIN_L8 -to "letter1-5"
+set_location_assignment PIN_J4 -to "letter1-4"
+set_location_assignment PIN_D6 -to "letter1-3"
+set_location_assignment PIN_D5 -to "letter1-2"
+set_location_assignment PIN_D3 -to "letter2-7"
+set_location_assignment PIN_E4 -to "letter2-6"
+set_location_assignment PIN_E3 -to "letter2-5"
+set_location_assignment PIN_G5 -to "letter2-1"
+set_location_assignment PIN_G6 -to "letter2-2"
+set_location_assignment PIN_C2 -to "letter2-3"
+set_location_assignment PIN_C1 -to "letter2-4"
+set_location_assignment PIN_E1 -to "letter3-1"
+set_location_assignment PIN_H5 -to "letter3-3"
+set_location_assignment PIN_H6 -to "letter3-2"
+set_location_assignment PIN_H4 -to "letter3-4"
+set_location_assignment PIN_G3 -to "letter3-5"
+set_location_assignment PIN_D2 -to "letter3-6"
+set_location_assignment PIN_D1 -to "letter3-7"
+set_location_assignment PIN_J2 -to "letter4-1"
+set_location_assignment PIN_J1 -to "letter4-2"
+set_location_assignment PIN_H2 -to "letter4-3"
+set_location_assignment PIN_H1 -to "letter4-4"
+set_location_assignment PIN_F2 -to "letter4-5"
+set_location_assignment PIN_F1 -to "letter4-6"
+set_location_assignment PIN_E2 -to "letter4-7"
+set_location_assignment PIN_L1 -to clk
+set_location_assignment PIN_T18 -to mc_count[0]
+set_location_assignment PIN_Y19 -to mc_count[1]
+set_location_assignment PIN_U19 -to mc_count[2]
+set_location_assignment PIN_R19 -to mc_count[3]
+set_location_assignment PIN_R20 -to mc_count[4]
+set_global_assignment -name MISC_FILE "P:/altera/dsd/projects/lab5/g07_lab5.dpf"
+set_global_assignment -name BDF_FILE g07_complete_game2.bdf
+set_location_assignment PIN_M22 -to col_input[0]
+set_location_assignment PIN_L21 -to col_input[1]
+set_location_assignment PIN_L22 -to col_input[2]
+set_location_assignment PIN_U12 -to row_input[0]
+set_location_assignment PIN_W12 -to row_input[1]
+set_location_assignment PIN_V12 -to row_input[2]
+set_location_assignment PIN_M2 -to readwrite_sp
+set_location_assignment PIN_L2 -to st_game_i
+set_location_assignment PIN_M1 -to pause
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE g07_complete_game2.vwf
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
+set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

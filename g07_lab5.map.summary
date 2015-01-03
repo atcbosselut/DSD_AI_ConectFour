@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Tue Dec 06 00:19:14 2011
+Quartus II Version : 9.0 Build 235 06/17/2009 SP 2 SJ Full Version
+Revision Name : g07_lab5
+Top-level Entity Name : g07_complete_game2
+Family : Cyclone II
+Total logic elements : 3,419
+    Total combinational functions : 3,402
+    Dedicated logic registers : 404
+Total registers : 404
+Total pins : 43
+Total virtual pins : 0
+Total memory bits : 1,400
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

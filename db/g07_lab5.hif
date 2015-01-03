@@ -1,0 +1,1007 @@
+Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Full Version
+11
+980
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+g07_game_control2
+# storage
+db|g07_lab5.(5).cnf
+db|g07_lab5.(5).cnf
+# case_insensitive
+# source_file
+g07_game_control2.bdf
+2cfaacfb5addc570b96a22638722ba
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# macro_sequence
+
+# end
+# entity
+g07_asp_row_config
+# storage
+db|g07_lab5.(3).cnf
+db|g07_lab5.(3).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+g07_asp_row_config.vhd
+6b9be0b37fca581652ad8610b0b9e062
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+g07_asp_row_config:inst11
+}
+# lmf
+c:|altera|90|quartus|lmf|maxplus2.lmf
+9a59d39b0706640b4b2718e8a1ff1f
+# macro_sequence
+
+# end
+# entity
+g07_asp_next_move
+# storage
+db|g07_lab5.(6).cnf
+db|g07_lab5.(6).cnf
+# case_insensitive
+# source_file
+g07_asp_next_move.bdf
+db833fd72fb1a0f5fde92f9d8d2d811f
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# macro_sequence
+
+# end
+# entity
+g07_gra_arr
+# storage
+db|g07_lab5.(1).cnf
+db|g07_lab5.(1).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+g07_gra_arr.vhd
+a3e77986b395dfbcd4b63e8abeb812
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+g07_gra_arr:inst12
+}
+# lmf
+c:|altera|90|quartus|lmf|maxplus2.lmf
+9a59d39b0706640b4b2718e8a1ff1f
+# macro_sequence
+
+# end
+# entity
+g07_asp_registers
+# storage
+db|g07_lab5.(0).cnf
+db|g07_lab5.(0).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+g07_asp_registers.vhd
+9876bcdd48287b25c7135a2d91cb341
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+g07_asp_registers:inst26
+}
+# lmf
+c:|altera|90|quartus|lmf|maxplus2.lmf
+9a59d39b0706640b4b2718e8a1ff1f
+# macro_sequence
+
+# end
+# entity
+g07_sp_player
+# storage
+db|g07_lab5.(4).cnf
+db|g07_lab5.(4).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+g07_sp_player.vhd
+31f83e35c8247ba2f3429889159fa0a9
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+g07_sp_player:inst
+}
+# lmf
+c:|altera|90|quartus|lmf|maxplus2.lmf
+9a59d39b0706640b4b2718e8a1ff1f
+# macro_sequence
+
+# end
+# entity
+g07_asp_row_incr
+# storage
+db|g07_lab5.(2).cnf
+db|g07_lab5.(2).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+g07_asp_row_incr.vhd
+7fafc41f4fd8ddba91da9b877fba64f
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+g07_asp_row_incr:inst21
+}
+# lmf
+c:|altera|90|quartus|lmf|maxplus2.lmf
+9a59d39b0706640b4b2718e8a1ff1f
+# macro_sequence
+
+# end
+# entity
+g07_7_segment_led
+# storage
+db|g07_lab5.(9).cnf
+db|g07_lab5.(9).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+g07_7_segment_led.vhd
+1e478e14bdc656a4a6af9b33620390
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+g07_7_segment_led:inst3
+g07_7_segment_led:inst17
+g07_7_segment_led:inst18
+g07_7_segment_led:inst20
+}
+# lmf
+c:|altera|90|quartus|lmf|maxplus2.lmf
+9a59d39b0706640b4b2718e8a1ff1f
+# macro_sequence
+
+# end
+# entity
+LPM_ROM
+# storage
+db|g07_lab5.(10).cnf
+db|g07_lab5.(10).cnf
+# case_insensitive
+# source_file
+c:|altera|90|quartus|libraries|megafunctions|LPM_ROM.tdf
+2459289aa4a57fa4cbb7ab3b073a4
+7
+# user_parameter {
+LPM_WIDTH
+7
+PARAMETER_SIGNED_DEC
+USR
+LPM_WIDTHAD
+7
+PARAMETER_SIGNED_DEC
+USR
+LPM_NUMWORDS
+128
+PARAMETER_SIGNED_DEC
+USR
+LPM_ADDRESS_CONTROL
+REGISTERED
+PARAMETER_UNKNOWN
+USR
+LPM_OUTDATA
+REGISTERED
+PARAMETER_UNKNOWN
+USR
+LPM_FILE
+lcd_decoder_rom.mif
+PARAMETER_UNKNOWN
+USR
+DEVICE_FAMILY
+Cyclone II
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+Q6
+-1
+3
+Q5
+-1
+3
+Q4
+-1
+3
+Q3
+-1
+3
+Q2
+-1
+3
+Q1
+-1
+3
+Q0
+-1
+3
+OUTCLOCK
+-1
+3
+INCLOCK
+-1
+3
+ADDRESS6
+-1
+3
+ADDRESS5
+-1
+3
+ADDRESS4
+-1
+3
+ADDRESS3
+-1
+3
+ADDRESS2
+-1
+3
+ADDRESS1
+-1
+3
+ADDRESS0
+-1
+3
+}
+# include_file {
+c:|altera|90|quartus|libraries|megafunctions|altrom.inc
+d4e3a69a331d3a99d3281790d99a1ebd
+c:|altera|90|quartus|libraries|megafunctions|aglobal90.inc
+99832fdf63412df51d7531202d74e75
+}
+# hierarchies {
+g07_7_segment_led:inst3|lpm_rom:crc_table
+g07_7_segment_led:inst17|lpm_rom:crc_table
+g07_7_segment_led:inst18|lpm_rom:crc_table
+g07_7_segment_led:inst20|lpm_rom:crc_table
+}
+# macro_sequence
+
+# end
+# entity
+altrom
+# storage
+db|g07_lab5.(11).cnf
+db|g07_lab5.(11).cnf
+# case_insensitive
+# source_file
+c:|altera|90|quartus|libraries|megafunctions|altrom.tdf
+f7dde580e6ec9d891b19d8a8bd1575
+7
+# user_parameter {
+WIDTH_BYTEENA_A
+1
+PARAMETER_UNKNOWN
+DEF
+WIDTH_BYTEENA_B
+1
+PARAMETER_UNKNOWN
+DEF
+WIDTH
+7
+PARAMETER_UNKNOWN
+USR
+AD_WIDTH
+7
+PARAMETER_UNKNOWN
+USR
+NUMWORDS
+128
+PARAMETER_UNKNOWN
+USR
+FILE
+lcd_decoder_rom.mif
+PARAMETER_UNKNOWN
+USR
+REGISTERINPUTMODE
+ADDRESS_CONTROL
+PARAMETER_UNKNOWN
+USR
+MAXIMUM_DEPTH
+2048
+PARAMETER_UNKNOWN
+DEF
+DEVICE_FAMILY
+Cyclone II
+PARAMETER_UNKNOWN
+USR
+SUPPRESS_MEMORY_CONVERSION_WARNINGS
+OFF
+PARAMETER_UNKNOWN
+DEF
+CBXI_PARAMETER
+NOTHING
+PARAMETER_UNKNOWN
+DEF
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+q6
+-1
+3
+q5
+-1
+3
+q4
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+clocko
+-1
+3
+clocki
+-1
+3
+address6
+-1
+3
+address5
+-1
+3
+address4
+-1
+3
+address3
+-1
+3
+address2
+-1
+3
+address1
+-1
+3
+address0
+-1
+3
+}
+# include_file {
+c:|altera|90|quartus|libraries|megafunctions|altsyncram.inc
+1b5760dd55919ddb45bfb2c0e896218b
+c:|altera|90|quartus|libraries|megafunctions|lpm_decode.inc
+bd0e2f5e01c1bd360461dceb53d48
+c:|altera|90|quartus|libraries|megafunctions|aglobal90.inc
+99832fdf63412df51d7531202d74e75
+c:|altera|90|quartus|libraries|megafunctions|altqpram.inc
+74e08939f96a7ea8e7a4d59a5b01fe7
+c:|altera|90|quartus|libraries|megafunctions|lpm_mux.inc
+c22bfd353214c01495b560fc34e47d79
+c:|altera|90|quartus|libraries|others|maxplus2|memmodes.inc
+44d4551a35f349f0dbacaf799d39950
+}
+# hierarchies {
+g07_7_segment_led:inst3|lpm_rom:crc_table|altrom:srom
+g07_7_segment_led:inst17|lpm_rom:crc_table|altrom:srom
+g07_7_segment_led:inst18|lpm_rom:crc_table|altrom:srom
+g07_7_segment_led:inst20|lpm_rom:crc_table|altrom:srom
+}
+# macro_sequence
+
+# end
+# entity
+altsyncram
+# storage
+db|g07_lab5.(12).cnf
+db|g07_lab5.(12).cnf
+# case_insensitive
+# source_file
+c:|altera|90|quartus|libraries|megafunctions|altsyncram.tdf
+e1c0875fc8dd5deec51527c0c9dd83be
+7
+# user_parameter {
+BYTE_SIZE_BLOCK
+8
+PARAMETER_UNKNOWN
+DEF
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+WIDTH_BYTEENA
+1
+PARAMETER_UNKNOWN
+DEF
+OPERATION_MODE
+ROM
+PARAMETER_UNKNOWN
+USR
+WIDTH_A
+7
+PARAMETER_UNKNOWN
+USR
+WIDTHAD_A
+7
+PARAMETER_UNKNOWN
+USR
+NUMWORDS_A
+128
+PARAMETER_UNKNOWN
+USR
+OUTDATA_REG_A
+CLOCK1
+PARAMETER_UNKNOWN
+USR
+ADDRESS_ACLR_A
+NONE
+PARAMETER_UNKNOWN
+USR
+OUTDATA_ACLR_A
+NONE
+PARAMETER_UNKNOWN
+USR
+WRCONTROL_ACLR_A
+NONE
+PARAMETER_UNKNOWN
+DEF
+INDATA_ACLR_A
+NONE
+PARAMETER_UNKNOWN
+DEF
+BYTEENA_ACLR_A
+NONE
+PARAMETER_UNKNOWN
+DEF
+WIDTH_B
+1
+PARAMETER_UNKNOWN
+DEF
+WIDTHAD_B
+1
+PARAMETER_UNKNOWN
+DEF
+NUMWORDS_B
+1
+PARAMETER_UNKNOWN
+DEF
+INDATA_REG_B
+CLOCK1
+PARAMETER_UNKNOWN
+DEF
+WRCONTROL_WRADDRESS_REG_B
+CLOCK1
+PARAMETER_UNKNOWN
+DEF
+RDCONTROL_REG_B
+CLOCK1
+PARAMETER_UNKNOWN
+DEF
+ADDRESS_REG_B
+CLOCK1
+PARAMETER_UNKNOWN
+DEF
+OUTDATA_REG_B
+UNREGISTERED
+PARAMETER_UNKNOWN
+DEF
+BYTEENA_REG_B
+CLOCK1
+PARAMETER_UNKNOWN
+DEF
+INDATA_ACLR_B
+NONE
+PARAMETER_UNKNOWN
+DEF
+WRCONTROL_ACLR_B
+NONE
+PARAMETER_UNKNOWN
+DEF
+ADDRESS_ACLR_B
+NONE
+PARAMETER_UNKNOWN
+DEF
+OUTDATA_ACLR_B
+NONE
+PARAMETER_UNKNOWN
+DEF
+RDCONTROL_ACLR_B
+NONE
+PARAMETER_UNKNOWN
+DEF
+BYTEENA_ACLR_B
+NONE
+PARAMETER_UNKNOWN
+DEF
+WIDTH_BYTEENA_A
+1
+PARAMETER_UNKNOWN
+DEF
+WIDTH_BYTEENA_B
+1
+PARAMETER_UNKNOWN
+DEF
+RAM_BLOCK_TYPE
+AUTO
+PARAMETER_UNKNOWN
+DEF
+BYTE_SIZE
+8
+PARAMETER_UNKNOWN
+DEF
+READ_DURING_WRITE_MODE_MIXED_PORTS
+DONT_CARE
+PARAMETER_UNKNOWN
+DEF
+READ_DURING_WRITE_MODE_PORT_A
+NEW_DATA_NO_NBE_READ
+PARAMETER_UNKNOWN
+DEF
+READ_DURING_WRITE_MODE_PORT_B
+NEW_DATA_NO_NBE_READ
+PARAMETER_UNKNOWN
+DEF
+INIT_FILE
+lcd_decoder_rom.mif
+PARAMETER_UNKNOWN
+USR
+INIT_FILE_LAYOUT
+PORT_A
+PARAMETER_UNKNOWN
+DEF
+MAXIMUM_DEPTH
+0
+PARAMETER_UNKNOWN
+DEF
+CLOCK_ENABLE_INPUT_A
+NORMAL
+PARAMETER_UNKNOWN
+DEF
+CLOCK_ENABLE_INPUT_B
+NORMAL
+PARAMETER_UNKNOWN
+DEF
+CLOCK_ENABLE_OUTPUT_A
+NORMAL
+PARAMETER_UNKNOWN
+DEF
+CLOCK_ENABLE_OUTPUT_B
+NORMAL
+PARAMETER_UNKNOWN
+DEF
+CLOCK_ENABLE_CORE_A
+USE_INPUT_CLKEN
+PARAMETER_UNKNOWN
+DEF
+CLOCK_ENABLE_CORE_B
+USE_INPUT_CLKEN
+PARAMETER_UNKNOWN
+DEF
+ENABLE_ECC
+FALSE
+PARAMETER_UNKNOWN
+DEF
+DEVICE_FAMILY
+Cyclone II
+PARAMETER_UNKNOWN
+USR
+CBXI_PARAMETER
+altsyncram_os01
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+q_a6
+-1
+3
+q_a5
+-1
+3
+q_a4
+-1
+3
+q_a3
+-1
+3
+q_a2
+-1
+3
+q_a1
+-1
+3
+q_a0
+-1
+3
+clock1
+-1
+3
+clock0
+-1
+3
+address_a6
+-1
+3
+address_a5
+-1
+3
+address_a4
+-1
+3
+address_a3
+-1
+3
+address_a2
+-1
+3
+address_a1
+-1
+3
+address_a0
+-1
+3
+}
+# include_file {
+c:|altera|90|quartus|libraries|megafunctions|a_rdenreg.inc
+60d229340bc3c24acb0a137b4849830
+c:|altera|90|quartus|libraries|megafunctions|lpm_decode.inc
+bd0e2f5e01c1bd360461dceb53d48
+c:|altera|90|quartus|libraries|megafunctions|altrom.inc
+d4e3a69a331d3a99d3281790d99a1ebd
+c:|altera|90|quartus|libraries|megafunctions|altdpram.inc
+99d442b5b66c88db4daf94d99c6e4e77
+c:|altera|90|quartus|libraries|megafunctions|altram.inc
+e66a83eccf6717bed97c99d891ad085
+c:|altera|90|quartus|libraries|megafunctions|aglobal90.inc
+99832fdf63412df51d7531202d74e75
+c:|altera|90|quartus|libraries|megafunctions|stratix_ram_block.inc
+2263a3bdfffeb150af977ee13902f70
+c:|altera|90|quartus|libraries|megafunctions|altqpram.inc
+74e08939f96a7ea8e7a4d59a5b01fe7
+c:|altera|90|quartus|libraries|megafunctions|lpm_mux.inc
+c22bfd353214c01495b560fc34e47d79
+}
+# hierarchies {
+g07_7_segment_led:inst3|lpm_rom:crc_table|altrom:srom|altsyncram:rom_block
+g07_7_segment_led:inst17|lpm_rom:crc_table|altrom:srom|altsyncram:rom_block
+g07_7_segment_led:inst18|lpm_rom:crc_table|altrom:srom|altsyncram:rom_block
+g07_7_segment_led:inst20|lpm_rom:crc_table|altrom:srom|altsyncram:rom_block
+}
+# macro_sequence
+
+# end
+# entity
+altsyncram_os01
+# storage
+db|g07_lab5.(13).cnf
+db|g07_lab5.(13).cnf
+# case_insensitive
+# source_file
+db|altsyncram_os01.tdf
+a026cdfa6ed82e3bd4a1a763939490
+7
+# used_port {
+q_a6
+-1
+3
+q_a5
+-1
+3
+q_a4
+-1
+3
+q_a3
+-1
+3
+q_a2
+-1
+3
+q_a1
+-1
+3
+q_a0
+-1
+3
+clock1
+-1
+3
+clock0
+-1
+3
+address_a6
+-1
+3
+address_a5
+-1
+3
+address_a4
+-1
+3
+address_a3
+-1
+3
+address_a2
+-1
+3
+address_a1
+-1
+3
+address_a0
+-1
+3
+}
+# memory_file {
+lcd_decoder_rom.mif
+6f415c5683df453f48f958775e563b70
+}
+# hierarchies {
+g07_7_segment_led:inst3|lpm_rom:crc_table|altrom:srom|altsyncram:rom_block|altsyncram_os01:auto_generated
+g07_7_segment_led:inst17|lpm_rom:crc_table|altrom:srom|altsyncram:rom_block|altsyncram_os01:auto_generated
+g07_7_segment_led:inst18|lpm_rom:crc_table|altrom:srom|altsyncram:rom_block|altsyncram_os01:auto_generated
+g07_7_segment_led:inst20|lpm_rom:crc_table|altrom:srom|altsyncram:rom_block|altsyncram_os01:auto_generated
+}
+# macro_sequence
+
+# end
+# entity
+g07_game_termination
+# storage
+db|g07_lab5.(14).cnf
+db|g07_lab5.(14).cnf
+# case_insensitive
+# source_file
+g07_game_termination.bdf
+c3f04734b77a223d8a8d4bef22b5c74
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# macro_sequence
+
+# end
+# entity
+g07_game_end
+# storage
+db|g07_lab5.(15).cnf
+db|g07_lab5.(15).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+g07_game_end.vhd
+1952ad4f638dce73f9349960eee50
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+g07_game_end:inst5
+}
+# lmf
+c:|altera|90|quartus|lmf|maxplus2.lmf
+9a59d39b0706640b4b2718e8a1ff1f
+# macro_sequence
+
+# end
+# entity
+g07_game_control
+# storage
+db|g07_lab5.(7).cnf
+db|g07_lab5.(7).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+g07_game_control.vhd
+bb547068134f915afc14965b3f3f4c14
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+g07_game_control:inst23
+}
+# lmf
+c:|altera|90|quartus|lmf|maxplus2.lmf
+9a59d39b0706640b4b2718e8a1ff1f
+# macro_sequence
+
+# end
+# entity
+g07_complete_game
+# storage
+db|g07_lab5.(8).cnf
+db|g07_lab5.(8).cnf
+# case_insensitive
+# source_file
+g07_complete_game.bdf
+ecf6ea6ef9e1f01ef49663908d51ffae
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# macro_sequence
+
+# end
+# entity
+g07_complete_game2
+# storage
+db|g07_lab5.(16).cnf
+db|g07_lab5.(16).cnf
+# case_insensitive
+# source_file
+g07_complete_game2.bdf
+32c84f55a255f3086b45f436cf2710
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# complete
+
